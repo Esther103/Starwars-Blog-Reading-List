@@ -22,7 +22,7 @@ const Card = props => {
 		<div className="card mr-5 ml-3 mb-2 w-25">
 			<img
 				className="card-img-top"
-				src="https://i.blogs.es/8dd90a/galaxyedge/1366_2000.jpeg"
+				src="https://www.humonegro.com/wp-content/STAR-WARS-IX-THE-RISE-OF-SKYWALKER-FRONTAL.png"
 				alt="Card image cap"
 			/>
 			<div className="card-body">

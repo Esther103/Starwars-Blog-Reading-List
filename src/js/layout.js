@@ -9,6 +9,7 @@ import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 import { People } from "./views/people";
 import { Planets } from "./views/planets";
+import "../styles/home.scss";
 
 //create your first component
 const Layout = () => {
@@ -17,7 +18,7 @@ const Layout = () => {
 	const basename = process.env.BASENAME || "";
 
 	return (
-		<div className="d-flex flex-column">
+		<div className="d-flex flex-column homebg">
 			<BrowserRouter basename={basename}>
 				<ScrollToTop>
 					<Navbar />

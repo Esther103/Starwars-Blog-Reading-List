@@ -28,10 +28,10 @@ export const Navbar = () => {
 	};
 
 	return (
-		<nav className="navbar navbar-light bg-light mb-3">
+		<nav className="navbar navbar-dark bg-dark mb-3">
 			<div className="container">
 				<img
-					src="https://www.brickfanatics.com/wp-content/uploads/LEGO-Star-Wars-classic-logo-white-featured.jpeg"
+					src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/250px-Star_Wars_Logo.svg.png"
 					alt=""
 					width="80"
 					height="50"
@@ -43,7 +43,7 @@ export const Navbar = () => {
 				<div className="ml-auto">
 					<div className="dropdown dropdown-menu-right">
 						<button
-							className="btn btn-primary dropdown-toggle"
+							className="btn btn-warning dropdown-toggle"
 							type="button"
 							id="dropdownMenuButton"
 							data-toggle="dropdown"
